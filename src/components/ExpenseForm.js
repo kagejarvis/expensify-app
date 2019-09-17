@@ -18,6 +18,7 @@ export default class ExpenseForm extends React.Component {
         };
     }
 
+
     onDescriptionChange = (e) => {
         const description = e.target.value;
         this.setState(() => ({ description }));
@@ -42,6 +43,7 @@ export default class ExpenseForm extends React.Component {
     onFocusChange = ({ focused }) => {
         this.setState(() => ({ calendarFocused: focused }));
     };
+
 
     // renderCalendarInfo = () => (
     //     <button type="button" onClick={() => {
@@ -103,7 +105,10 @@ export default class ExpenseForm extends React.Component {
                         onChange={this.onNoteChange}
                     >
                     </textarea>
-                    <button>Add Expense</button>
+                    <button>{(window.location.pathname.indexOf('edit') > 0) ? `Edit Expense` :
+                        `Add Expense`
+                    }</button>
+
                 </form>
             </div >
         )
