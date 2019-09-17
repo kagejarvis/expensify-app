@@ -8,5 +8,10 @@ exports[`Should render AddExpensePage correctly 1`] = `
   <ExpenseForm
     onSubmit={[Function]}
   />
+  <button
+    onClick={[Function]}
+  >
+    Cancel
+  </button>
 </div>
 `;

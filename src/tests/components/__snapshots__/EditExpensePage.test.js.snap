@@ -19,5 +19,10 @@ exports[`Should render EditExpensePage correctly 1`] = `
   >
     Remove
   </button>
+  <button
+    onClick={[Function]}
+  >
+    Cancel
+  </button>
 </div>
 `;
