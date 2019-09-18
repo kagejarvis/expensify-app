@@ -1,0 +1,25 @@
+.text-input {
+    border: 2px solid #cacccd;
+    height: 50px;
+    font-size: $font-size-large;
+    padding: $s-size;
+}
+
+.select {
+    @extend .text-input;
+}
+
+.textarea {
+    @extend .text-input;
+    height: 10rem;
+}
+
+.DateRangePickerInput {
+    border: 2px solid #cacccd !important;
+    height: 50px !important;
+}
+
+.DateInput {
+    padding: 0px !important;
+    text-align: center;
+}

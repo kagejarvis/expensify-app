@@ -21,7 +21,3 @@ test('Should handle onSubmit', () => {
     expect(startAddExpense).toHaveBeenLastCalledWith(expenses[1]);
 });
 
-test('Should handle cancel button', () => {
-    wrapper.find('button').simulate('click');
-    expect(history.push).toHaveBeenLastCalledWith('/dashboard');
-});
