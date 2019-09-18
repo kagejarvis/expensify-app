@@ -1,6 +1,6 @@
 .box-layout {
     align-items: center;
-    background: url('/images/bg.jpg');
+    background: url('/images/fog-rocks.jpg');
     background-size: cover;
     display: flex;
     height: 100vh;
@@ -10,11 +10,11 @@
 
 .box-layout__box {
     // background: fade-out(white, .15);
-    background: fade-out($color: white, $amount: .35);
+    background: fade-out($color: white, $amount: .3);
     border-radius: 3px;
     padding: $l-size $m-size;
     text-align: center;
-    width: 25rem;
+    width: 30rem;
 }
 
 .box-layout__title {
